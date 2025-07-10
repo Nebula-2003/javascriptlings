@@ -1,0 +1,11 @@
+import { describe, it, expect } from 'vitest';
+import { timeoutPromise } from '../../tasks/4.async-promises/61.timeout-promise.js';
+
+describe('timeoutPromise', () => {
+  it('should return promise that resolves after delay', async () => {
+    // const start = Date.now();
+    // await timeoutPromise(100);
+    // const end = Date.now();
+    // expect(end - start).toBeGreaterThanOrEqual(100);
+  });
+});
