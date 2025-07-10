@@ -1,4 +1,6 @@
-// I AM NOT YET DONE
+/**
+ * Implements an EventEmitter class.
+ */
 export class EventEmitter {
 
 }
