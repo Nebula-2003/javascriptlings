@@ -3,6 +3,6 @@ import { reverseString } from '../../tasks/2.control-flow-logic/39.reverse-strin
 
 describe('reverseString', () => {
   it('should reverse a given string', () => {
-    // expect(reverseString('hello')).toEqual('olleh');
+    expect(reverseString('hello')).toEqual('olleh');
   });
 });

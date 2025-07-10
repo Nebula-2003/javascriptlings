@@ -3,6 +3,6 @@ import { removeDuplicates } from '../../tasks/2.control-flow-logic/29.remove-dup
 
 describe('removeDuplicates', () => {
   it('should remove duplicate entries from array', () => {
-    // expect(removeDuplicates([1, 2, 2, 3])).toEqual([1, 2, 3]);
+    expect(removeDuplicates([1, 2, 2, 3])).toEqual([1, 2, 3]);
   });
 });

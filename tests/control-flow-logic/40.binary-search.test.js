@@ -3,6 +3,6 @@ import { binarySearch } from '../../tasks/2.control-flow-logic/40.binary-search.
 
 describe('binarySearch', () => {
   it('should perform binary search on sorted array', () => {
-    // expect(binarySearch([1, 2, 3, 4, 5], 3)).toEqual(2);
+    expect(binarySearch([1, 2, 3, 4, 5], 3)).toEqual(2);
   });
 });

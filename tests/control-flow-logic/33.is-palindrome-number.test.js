@@ -3,6 +3,6 @@ import { isPalindromeNumber } from '../../tasks/2.control-flow-logic/33.is-palin
 
 describe('isPalindromeNumber', () => {
   it('should check if number reads same forward/back', () => {
-    // expect(isPalindromeNumber(121)).toEqual(true);
+    expect(isPalindromeNumber(121)).toEqual(true);
   });
 });
