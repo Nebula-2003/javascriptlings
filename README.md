@@ -81,4 +81,4 @@ Contributions are welcome! If you have ideas for new exercises, improvements to 
 
 ## License
 
-This project is licensed under the [ISC License](LICENSE). *(You might want to create a `LICENSE` file in your repository if you haven't already.)*
+This project is licensed under the [ISC License](LICENSE).
