@@ -29,8 +29,8 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 
     ```bash
     git clone https://github.com/Nebula-2003/javascriptlings
-    git checkout basics
     cd javascriptlings
+    git checkout basics
     ```
 
 2.  **Install dependencies:**
