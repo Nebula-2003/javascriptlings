@@ -28,11 +28,9 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/Nebula-2003/javascriptlings)
     cd javascriptlings
     ```
-
-    *(Replace `<repository-url>` with the actual URL of this repository.)*
 
 2.  **Install dependencies:**
 
