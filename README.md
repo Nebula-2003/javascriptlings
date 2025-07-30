@@ -50,9 +50,8 @@ npm run test -t <test-name>
 ### Your Workflow
 
 1.  **Choose an Exercise:** The `javascriptlings` tool will guide you to the next available exercise.
-2.  **Enable the Exercise:** Navigate to the suggested test file (e.g., `tests/basics/1.even-numbers.test.js`) and uncomment the `describe` or `it` blocks within it. Save the file.
-3.  **Solve the Task:** Open the corresponding JavaScript task file in the `tasks/` directory (e.g., `tasks/1.basics/1.even-numbers.js`). Implement your solution to the problem described in the comments.
-4.  **Check Your Work:** Run `npm run test -t <test-name>` again to see if your solution passes the tests.
+2.  **Solve the Task:** Open the corresponding JavaScript task file in the `tasks/` directory (e.g., `tasks/1.basics/1.even-numbers.js`). Implement your solution to the problem described in the comments.
+3.  **Check Your Work:** Run `npm run test -t <test-name>` again to see if your solution passes the tests.
 
 ## Project Structure (Brief)
 
@@ -62,7 +61,3 @@ npm run test -t <test-name>
 ## Contributing
 
 Contributions are welcome! If you have ideas for new exercises, improvements to the tool, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [ISC License](LICENSE).
