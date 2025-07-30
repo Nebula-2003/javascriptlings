@@ -45,35 +45,20 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 Once installed, you can run the JavaScriptlings tool from your terminal:
 
 ```bash
-npm run javascriptlings
+npm run test -t <test-name>
 ```
-
-This command will scan all exercises and report their status.
-
-## How to Use
-
-When you run `npm run javascriptlings`, you'll see a list of exercises with one of the following statuses:
-
-*   **SKIPPED:** This exercise is not yet active. To start working on it, you need to **uncomment the test block(s)** in its corresponding test file located in the `tests/` directory. The tool will provide a hint with the exact file path.
-
-*   **ATTEMPTING:** This exercise is active, and the tool is running its tests.
-
-    *   If the tests pass, the exercise will be marked as **PASS**.
-    *   If the tests fail, the exercise will be marked as **FAIL**, and you'll see the test output to help you debug your solution.
 
 ### Your Workflow
 
 1.  **Choose an Exercise:** The `javascriptlings` tool will guide you to the next available exercise.
 2.  **Enable the Exercise:** Navigate to the suggested test file (e.g., `tests/basics/1.even-numbers.test.js`) and uncomment the `describe` or `it` blocks within it. Save the file.
 3.  **Solve the Task:** Open the corresponding JavaScript task file in the `tasks/` directory (e.g., `tasks/1.basics/1.even-numbers.js`). Implement your solution to the problem described in the comments.
-4.  **Check Your Work:** Run `npm run javascriptlings` again to see if your solution passes the tests.
-5.  **Repeat:** Continue this cycle of enabling, solving, and checking until all exercises are marked as `PASS`!
+4.  **Check Your Work:** Run `npm run test -t <test-name>` again to see if your solution passes the tests.
 
 ## Project Structure (Brief)
 
 *   `tasks/`: Contains the JavaScript files where you'll write your solutions.
 *   `tests/`: Contains the test files that validate your solutions.
-*   `src/`: Contains the `runner.js` script that powers the JavaScriptlings CLI.
 
 ## Contributing
 
